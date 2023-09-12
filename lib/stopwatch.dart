@@ -12,6 +12,7 @@ class StopWatchState extends State<StopWatch> {
   bool isTicking = true;
   int seconds = 0;
   late Timer timer;
+  int milliseconds = 0;
 
  /* void initState(){
     super.initState();
